@@ -1,0 +1,159 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	margin: 0;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	background-color: #181719;
+	font-family: 'Montserrat', sans-serif;
+	padding: 4.5em 7.5rem;
+	color: #fff;
+	max-width: 1440px;
+	min-height: 100vh;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+a:visited {
+	color: #fff;
+}
+
+.nav {
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.nav .nav--logo {
+	border: 1px solid #fff;
+	font-family: 'Crimson Pro', serif;
+	height: 3rem;
+	padding: 0.8rem;
+	text-align: center;
+	font-weight: 200;
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+	text-transform: uppercase;
+}
+
+.nav .nav--items {
+	display: inline-flex;
+	flex-direction: row;
+	gap: 4.5rem;
+}
+
+.nav .nav--item {
+	font-weight: 500;
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+	list-style: none;
+}
+
+.nav .nav--item__active {
+	font-weight: bold;
+}
+
+.main {
+	margin: 14rem 0;
+	display: flex;
+	gap: 2rem;
+	flex-direction: row;
+}
+
+.main .section-1 {
+	flex: 1;
+}
+
+.main .section-2 {
+	flex: 2;
+	position: relative;
+}
+
+.section-1 h1 {
+	font-family: 'Lora', serif;
+	font-size: 4.8rem;
+	line-height: 6.1rem;
+}
+
+.section-1 p {
+	font-weight: 300;
+	font-size: 2.4rem;
+	line-height: 2.9rem;
+	margin: 4.6rem 0;
+}
+
+.section-1 a {
+	font-size: 1.8rem;
+	font-weight: 600;
+	line-height: 2.2rem;
+}
+
+.section-2 .section-2--banner {
+	width: 100%;
+	height: 59rem;
+}
+
+.section-2 .card {
+	background-color: #181719;
+	max-height: 18.9rem;
+	max-width: 41rem;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: -12rem;
+	right: 3rem;
+}
+
+.card .card--card-heading {
+	display: flex;
+	flex-direction: row;
+	padding: 1.5rem;
+}
+
+.card .card--card-heading .avatar {
+	height: 5rem;
+	width: 5rem;
+	border-radius: 50%;
+}
+
+.card .card--card-heading .card-info {
+	display: flex;
+	flex-direction: column;
+	margin-left: 2.5rem;
+}
+
+.card-info .card-info--heading {
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 1.7rem;
+}
+.card-info .card-info--subheading {
+	color: #828282;
+	font-size: 1.2rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+}
+
+.card h2 {
+	font-family: 'Lora', serif;
+	font-size: 2.4rem;
+	font-weight: bold;
+	line-height: 3.4rem;
+}
+
+footer {
+	color: #a9a9a9;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.4rem;
+	line-height: 1.7rem;
+	text-align: center;
+}

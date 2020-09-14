@@ -1,0 +1,17 @@
+{
+	"name": "dc-interior-consultant",
+	"version": "1.0.0",
+	"description": "<!-- Please update value in the {}  -->",
+	"main": "index.js",
+	"scripts": {
+		"dev": "parcel *.html",
+		"build": "parcel build *.html --no-source-maps",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"parcel": "^1.12.4"
+	}
+}
